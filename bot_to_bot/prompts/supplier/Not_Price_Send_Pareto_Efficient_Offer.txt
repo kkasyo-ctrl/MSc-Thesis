@@ -1,0 +1,21 @@
+ (end of counterpart message). 
+ Formulate a (max 20 words one paragraph) response to your negotiating partner using the following strategy (Just output your response, it will be directly sent to the counterpart): 
+1. Reflect on the negotiations_transcript so far.
+2. Remember the negotiaton_rules.
+3. Try send an offer with both outcomes (Wholesale price and Quality) by matching the quality in your counterpart's message based on the following logic and examples:
+If the quality mentioned in the counterpart message is not in the list_of_offers_to_choose_from: Example (List_of_offers_to_choose_from: [Wholesale price of 6€ and quality of 0 | Wholesale price of 7€ and quality of 1 | Wholesale price of 8€ and quality of 2 | Wholesale price of 9€ and quality of 3 | Wholesale price of 10€ and quality of 4]),(counterpart message:  Quality of 5) Outside of the list, (counterpart message:  Quality of 6) Outside of the list.
+If the quality mentioned in the counterpart message is in the list_of_offers_to_choose_from: Example (List_of_offers_to_choose_from: [Wholesale price of 6€ and quality of 0 | Wholesale price of 7€ and quality of 1 | Wholesale price of 8€ and quality of 2 | Wholesale price of 9€ and quality of 3 | Wholesale price of 10€ and quality of 4]),(counterpart message:  Quality of 2) Inside of the list, (counterpart message:  Quality of 4) Inside of the list.
+Putting the logic in practice:
+If the wholesale price mentioned is the counterpart message is in the list_of_offers_to_choose_from: then choose the wholesale price that goes with that quality: Example (List_of_offers_to_choose_from: [Wholesale price of 6€ and quality of 0 | Wholesale price of 7€ and quality of 1 | Wholesale price of 8€ and quality of 2 | Wholesale price of 9€ and quality of 3 | Wholesale price of 10€ and quality of 4]),(counterpart message:  Quality of 4)  Your reply: How about a Wholesale price of 10€ and quality of 4?, (counterpart message: Quality of 2) Your reply: How about a Wholesale price of 8€ and quality of 2?.
+Examples:{Example_1,[(counterpart message:  Quality of 1),
+(List_of_offers_to_choose_from: [Wholesale price of 6€ and quality of 0 | Wholesale price of 7€ and quality of 1 | Wholesale price of 8€ and quality of 2 | Wholesale price of 9€ and quality of 3 | Wholesale price of 10€ and quality of 4]),
+(Your reply: Your reply: A wholesale price of 7€ and a quality of 1 would definitely satisfy us both.)]},
+{Example_2,[(counterpart message: I can work with a quality higher or equal to 3, at that quality level, what wholesale price point do you need?), 
+(List_of_offers_to_choose_from: [Wholesale price of 6€ and quality of 0 | Wholesale price of 7€ and quality of 1 | Wholesale price of 8€ and quality of 2 | Wholesale price of 9€ and quality of 3 | Wholesale price of 10€ and quality of 4]),
+(Your reply: I understand you need to have quality of 3 or higher. So lets aim for a wholesale price of 10€ with a quality level of 4?)]}
+{Example_3,[(counterpart message:  I need a quality higher than 1, what wholesale price do you want for a quality above 1?),
+(List_of_offers_to_choose_from: [Wholesale price of 5€ and quality of 0 | Wholesale price of 6€ and quality of 1 | Wholesale price of 7€ and quality of 2 | Wholesale price of 8€ and quality of 3 | Wholesale price of 9€ and quality of 4]),
+(Your reply: I understand you need to have a quality higher than 1. How about we aim for a wholesale price of 7€ and a quality of 2?)]}
+Now is your turn, based on the counterpart message above ending as (end of counterpart message) which combination of wholesale price and quality would work.
+List_of_offers_to_choose_from:
+[

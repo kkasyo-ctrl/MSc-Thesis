@@ -1,0 +1,7 @@
+reply to the counterpart briefly max 3 sentences by also considering the previous messages exchanged stored as conversation history below. 
+The conversation history is format as a list with roles, the messages content you sent has the role of 'assistant' 
+[{'role': 'system', 'assistant': '' }] You can find your message in the content value within the role 'system'. 
+Your counterpart messages have the role 'user' [{'role': 'user', 'content': '' }] and are stored in content.
+Here is the conversation history: 
+    
+				

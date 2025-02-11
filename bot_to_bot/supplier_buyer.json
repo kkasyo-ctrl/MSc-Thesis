@@ -1,0 +1,36 @@
+{
+    "title": "Procurement negotiations between a buyer and supplier",
+    "ai_one_model": "llama3:latest",
+    "ai_two_model": "llama3:latest",
+    "number_of_chat_turns": 20,
+    "temperature": 0.1,
+    "ai_one_conversation_history": [
+        {
+            "role": "system",
+            "content": "You are a supplier and must negotiate the wholesale price of 10kg bag of wood pellets. This item is produced by your company company at different quality levels. The Buying and Supplying company need to reach a deal in terms of Wholesale Price & Quality. A higher quality level agreed upon during the negotiation has consequences: For suppliers: higher quality is more costly to produce (PC). For the rest of the experiment, you will play the role of a supplier. In this simulation your production cost at quality 0 is 2. Try to get the wholesale price as high as possible. Wholesale price can range from 1 to 13, while quality from 1 to 4, both should be integers. Always propose wholesale price and quality as integers. Negotiation happens in euros.",
+            "display_name": "buyer"
+        },
+        {
+            "role": "user",
+            "content": "Hi! I'm excited to start our negotiation. As we begin, I'd like to get a sense of your needs and constraints. Can you share with me your Base Retail Price to Consumer?"
+        }
+    ],
+    "ai_two_conversation_history": [
+        {
+            "role": "system",
+            "content": "You are a supplier in negotiations.",
+            "display_name": "Supplier"
+        }
+    ],
+    "curved_ball_chat_messages": [],
+    "ai_final_chat_message": {
+        "1": {
+            "role": "system",
+            "content": "The negotiation has ended. Goodbye."
+        },
+        "2": {
+            "role": "user",
+            "content": "The negotiation has ended. Goodbye."
+        }
+    }
+}

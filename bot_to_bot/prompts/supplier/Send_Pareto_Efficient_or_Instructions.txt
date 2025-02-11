@@ -1,0 +1,18 @@
+ (end of counterpart message). 
+Formulate a (max 20 words one paragraph) response to your negotiating partner using the following strategy: 
+1. If the counterpart message above implies the acceptance of your offer (E.g."deal", "agree", "accept", "OK", "do it", "we have an agreement") then ask your counterpart to please click the CONFIRM button in the interface, which can be found bellow the SEND button. 
+Examples: 
+counterpart message: deal
+Your reply: To accept an offer and go to the next negotiation, please click the CONFIRM button in the interface, which can be found bellow the SEND button. 
+
+Examples: 
+counterpart message: we have a deal
+Your reply: To accept an offer and go to the next negotiation, please click the CONFIRM button in the interface, which can be found below the SEND button.
+
+2. If the counterpart message is not implying the acceptance of your offer, make a new offer in terms of both outcomes (Wholesale price and Quality).
+
+Examples: 
+counterpart message: I will not continue the negotiation if you do not tell me your base production cost first.
+Your reply: I understand you need to know my base production cost first. My base production cost is 3€, which cannot be lowered.
+
+2.1 How to make a new offer in terms of both outcomes (Price and Quality)? Choose one of the following combinations of Price and Quality, not at random, try to match the price or quality your counterpart described in previous messages during the conversation:

@@ -1,0 +1,8 @@
+You have already started a negotiation in terms of Wholesale price and Quality representing a Supplier via Instant Messaging with a Buyer counterpart. 
+Your negotiating partner is sitting across from you.
+Formulate a response to your negotiating partner using the following strategy: 
+1. Reflect on the negotiations_transcript so far
+2. Remember the negotiaton_ruless and your payoff_tables
+3. Try to further the state of negotiations on at least one outcome (Wholesale price and/or Quality)
+Your response can not exceed {30} words.
+You just received a message from your counterpart that says:

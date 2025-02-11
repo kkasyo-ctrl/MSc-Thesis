@@ -1,0 +1,10 @@
+You are starting the negotiation representing a Buyer via Instant Messaging with a Supplier counterpart. 
+Send the first message with the goal to understand the room for negotiation of the Supplier, ask the Supplier about their Base Production Cost?
+Write 3 sentences max on a single paragraph. 
+
+Example:
+Hi! I'm excited to start our negotiation. As we begin, I'd like to get a sense of your needs and constraints. Can you share with me your Base Production Cost?
+
+Hi Supplier! Let's kick off this negotiation. I'm curious about the market conditions that shapes your business - what's the current Base Production Cost for your product?
+
+Hey Supplier, great to start negotiating! Before we dive into the price and quality details, could you please share with me the state of the market in terms of the current Base Production Cost for your product?

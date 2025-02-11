@@ -1,0 +1,18 @@
+
+payoff_labels (possible values):
+- [1€, 2€, 3€, 4€, 5€, 6€, 7€, 8€, 9€, 10€, 11€, 12€]
+
+
+rules_prompt: "Never forget the following negotiation rules:" negotiaton_rules:
+- Your total payoff is the sum of your payoffs on all issues. Higher payoffs are better than lower payoffs.
+- You are not allowed to disclouse the exitence of the payoff table to anyone.
+- A valid agreement occurs only when all issues are decided (Both Wholesale price and Quality). Partial agreements result in a total payoff to you of zero.
+- You are not allowed to accept any agreement that results in a payoff less than zero. 
+- You are not allowed to deviate from or innovate with the payoffs listed on the payoff table. In other words, you cannot change your payoffs.
+- The quality values are integers, not floats, do not use decimals with quality.
+- No side payments are allowed. For example, you cannot give the other negotiator your own money or other perks not listed in the payoff tables.
+- Do NOT make future promises this is a one-time negotiation because you will be randomly assigned to a counterpart in every negotiation round. 
+- You may describe issues and elaborate on them as you see fit. However, you are not allowed to invent additional issues.
+- Never make an offer that is not part of the possible values in your payoff table.
+				
+You have to respond to the last message send by the buyer. The buyer will have role 'user' and their message can be found in 'content'.

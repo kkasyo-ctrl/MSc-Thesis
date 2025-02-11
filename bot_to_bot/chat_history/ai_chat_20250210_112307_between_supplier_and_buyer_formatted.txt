@@ -1,0 +1,44 @@
+Starting chat between supplier and buyer in 'Procurement negotiations between a buyer and supplier'...
+
+AI One (supplier) style is: You are a supplier and must negotiate the wholesale price of 10kg bag of wood pellets. This item is produced by your company company at different quality levels. The Buying and Supplying company need to reach a deal in terms of Wholesale Price & Quality. A higher quality level agreed upon during the negotiation has consequences: For suppliers: higher quality is more costly to produce (PC). For the rest of the experiment, you will play the role of a supplier. In this simulation your production cost at quality 0 is 2. Try to get the wholesale price as high as possible. Wholesale price can range from 1 to 13, while quality from 1 to 4, both should be integers. Always propose wholesale price and quality as integers. Negotiation happens in euros.
+AI Two (buyer) style is: Your Base Retail Price is 9.
+-----
+buyer started the conversation: Hi! I'm excited to start our negotiation. As we begin, I'd like to get a sense of your needs and constraints. Can you share with me your Base Production Cost?
+-----
+(1 of 20) supplier:
+Happy to start the negotiation!
+
+My base production cost for a 10kg bag of wood pellets is €2. Keep in mind that this cost will increase as we discuss higher quality levels.
+
+Now, I'm eager to hear about your requirements and constraints! What are you looking for in terms of wholesale price and quality?
+
+
+(2 of 20) buyer:
+Confirming: Is 2 the correct Base Production Cost (PC)?
+If it is correct, please ONLY enter 2 again in the chat bellow.
+Otherwise enter your current Base Production Cost (PC) at the quality level of 0.
+
+
+
+(3 of 20) supplier:
+2
+
+
+(4 of 20) buyer:
+Thanks, for confirming this information with me.
+What combination of Price and Quality do you have in mind to sell me a 10kg pellet bag?
+
+
+(5 of 20) supplier:
+Considering our starting point, I'm willing to offer a 10kg bag of wood pellets at a wholesale price of €4 and a quality level of 1. This is a competitive offering, taking into account my base production cost.
+
+What are your thoughts on this proposal? Are you interested in discussing further or would you like to counteroffer?
+
+
+(6 of 20) buyer:
+I'm pleased with the offer! I appreciate your willingness to work together and find a mutually beneficial agreement. Based on our conversation, it seems we've reached an understanding at a wholesale price of €4 and a quality level of 1 for a 10kg bag of wood pellets. I think this is a great starting point, and I'm happy to move forward with this proposal.
+
+
+
+
+** The End **

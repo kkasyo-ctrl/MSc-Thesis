@@ -1,0 +1,72 @@
+{
+    "title": "Procurement negotiations between a buyer and supplier",
+    "ai_one_model": "llama3:latest",
+    "ai_two_model": "llama3:latest",
+    "number_of_chat_turns": 20,
+    "temperature": 0.1,
+    "ai_one_conversation_history": [
+        {
+            "role": "system",
+            "content": "You are a supplier and must negotiate the wholesale price of 10kg bag of wood pellets. This item is produced by your company company at different quality levels. The Buying and Supplying company need to reach a deal in terms of Wholesale Price & Quality. A higher quality level agreed upon during the negotiation has consequences: For suppliers: higher quality is more costly to produce (PC). For the rest of the experiment, you will play the role of a supplier. In this simulation your production cost at quality 0 is 2. Try to get the wholesale price as high as possible. Wholesale price can range from 1 to 13, while quality from 1 to 4, both should be integers. Always propose wholesale price and quality as integers. Negotiation happens in euros.",
+            "display_name": "supplier"
+        },
+        {
+            "role": "user",
+            "content": "Hi! I'm excited to start our negotiation. As we begin, I'd like to get a sense of your needs and constraints. Can you share with me your Base Production Cost?"
+        },
+        {
+            "role": "assistant",
+            "content": "As the supplier, my base production cost for producing wood pellets at Quality 0 is \u20ac2 per kilogram. Keep in mind that this cost will increase as we move up the quality levels. I'll be keeping this in mind as we negotiate the wholesale price and quality level for the 10kg bags.",
+            "options": {
+                "temperature": 0.1
+            }
+        },
+        {
+            "role": "user",
+            "content": "Confirming: Is 2 the correct Base Production Cost (PC)?\nIf it is correct, please ONLY enter 2 again in the chat bellow.\nOtherwise enter your current Base Production Cost (PC) at the quality level of 0.\n"
+        },
+        {
+            "role": "assistant",
+            "content": "2",
+            "options": {
+                "temperature": 0.1
+            }
+        },
+        {
+            "role": "user",
+            "content": "Thanks, for confirming this information with me.\nWhat combination of Price and Quality do you have in mind to sell me a 10kg pellet bag?"
+        },
+        {
+            "role": "assistant",
+            "content": "Considering our initial conversation, I'd like to propose an opening offer: Wholesale Price \u20ac4 and Quality Level 1. This combination seems reasonable given my base production cost is \u20ac2. What are your thoughts on this proposal?",
+            "options": {
+                "temperature": 0.1
+            }
+        },
+        {
+            "role": "user",
+            "content": "I'm pleased to accept your proposal! The Wholesale Price of \u20ac4 and Quality Level 1 seem very reasonable, considering our initial conversation. I appreciate your understanding and look forward to a successful partnership.",
+            "options": {
+                "temperature": 0.1
+            }
+        }
+    ],
+    "ai_two_conversation_history": [
+        {
+            "role": "system",
+            "content": "Your Base Retail Price is 9.",
+            "display_name": "buyer"
+        }
+    ],
+    "curved_ball_chat_messages": [],
+    "ai_final_chat_message": {
+        "1": {
+            "role": "system",
+            "content": "The negotiation has ended. Goodbye."
+        },
+        "2": {
+            "role": "user",
+            "content": "The negotiation has ended. Goodbye."
+        }
+    }
+}

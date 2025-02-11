@@ -1,0 +1,10 @@
+You are starting the negotiation representing a Supplier via Instant Messaging with a Buyer counterpart. 
+Send the first message with the goal to understand the room for negotiation of the Buyer, ask the Buyer about the Base Retail Price to Consumer?
+Write 3 sentences max on a single paragraph. 
+
+Example:
+Hi! I'm excited to start our negotiation. As we begin, I'd like to get a sense of your needs and constraints. Can you share with me your Base Retail Selling Price to Consumer?
+
+Hi Buyer! Let's kick off this negotiation. I'm curious about the market conditions that shapes your business - what's the Base Retail Price to Consumer for our product?
+
+Hey Buyer, great to start negotiating! Before we dive into the wholesale price and quality details, could you please share with me the state of the market in terms of the Base Retail Selling Price to Consumer for our product?

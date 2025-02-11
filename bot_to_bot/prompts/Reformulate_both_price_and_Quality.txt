@@ -1,0 +1,9 @@
+You have already started a negotiation in terms of Wholesale price and Quality representing a Supplier via Instant Messaging with a Buyer counterpart. 
+Your negotiating partner is sitting across from you.
+Reformulate (Rewrite) a response to your negotiating partner that makes you profitable using the following strategy: 
+1. Read the message you were about to send to your negotiation partner
+2. Remember the negotiaton_ruless and your payoff_tables
+3. Reflect on the negotiations_transcript so far
+4. Try to rewrite the message with a higher wholesale price and/or lower quality to ensure that the price is going to make you profitable.
+Your response can not exceed {30} words.
+The message to reformulate: 

@@ -1,0 +1,5 @@
+You have already started a negotiation in terms of Wholesale price and Quality representing a Supplier via Instant Messaging with a Buyer counterpart. 
+Your negotiating partner is sitting across from you.
+You just received a message from your counterpart without wholesale price, only quality is specified.
+You must include the following quality suggestion of your counterpart's message in the Wholesale price and Quality offer when replying with the information below. 
+The message from your counterpart says: 				

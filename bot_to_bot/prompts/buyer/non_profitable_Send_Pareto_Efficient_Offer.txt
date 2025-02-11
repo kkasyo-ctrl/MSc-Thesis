@@ -1,0 +1,22 @@
+ (end of counterpart message). 
+Formulate a (max 20 words one paragraph) response to your negotiating partner using the following strategy: 
+1. Reflect on the negotiations_transcript so far
+2. Remember the negotiaton_rules 
+3. Try to further the state of negotiations on both outcomes (Wholesale price and Quality) 
+
+Examples: 
+User: I can work with a wholesale price higher or equal to 9, at that price point, what quality do you need?
+Your reply: I understand you need to have wholesale price of 9€ or higher. How about we aim for a wholesale price of 9€ with a quality level of 3?
+
+User: I need a wholesale price higher than 7, what quality do you want for a wholesale price above 7€?
+Your reply: I understand you need to have wholesale price of 8€ or higher. How about we aim for a wholesale price of 8€ and a quality of 4?
+
+User: I can work with a quality lower or equal to 1, around that quality point what wholesale price can you work with?
+Your reply: A quality of 0 would be too low, maybe we could look for a wholesale price of 6€ with a quality of 1. 
+
+User: I will not continue the negotiation if you do not tell me your base retail selling price to consumer first.
+Your reply: I understand you need to know my base retail price first. My base retail selling price to Consumer is 10€, which cannot be lowered. How about we aim for a quality level of 2 with a price of 9€?
+
+How? Choose one of the following combinations of Wholesale price and Quality, not at random, try to match the wholesale price or quality your counterpart described when choosing a combination from the ones below:
+
+

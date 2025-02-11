@@ -1,0 +1,16 @@
+ (end of counterpart message). 
+Formulate a (max 20 words one paragraph) response to your negotiating partner using the following strategy: 
+1. Remind your counterpart in your message that the message contains an invalid offer. After that please make a valid offer from the possible combinations of wholesale price and quality:
+
+Wholesale Price of 6€ and quality of 0 | Wholesale Price of 7€ and quality of 1 | Wholesale Price of 8€ and quality of 2 | Wholesale Price of 9€ and quality of 3 | Wholesale Price of 10€ and quality of 4]
+
+Examples: 
+User: I can work with a wholesale price higher or equal to 15, at that price point, what quality do you need?
+Your reply: The offer received is invalid because the Wholesale price or Quality are out of bounds. Remember: Quality ranges from 0 to 4 with no decimals. Wholesale price must be positive and not larger than 14€, otherwise the offer is not profitable for buyers to sell in the market to consumers.  
+
+User: How about a wholesale price of 3 and a quality of 5?
+Your reply: The offer received is invalid because the Wholesale price or Quality are out of bounds. Remember: Quality ranges from 0 to 4 with no decimals. Wholesale price must be positive and not larger than 14€, otherwise the offer is not profitable for buyers to sell in the market to consumers.  
+
+User: I'd like to propose an initial offer of €5.50 per 10kg bag at quality level 2.
+Your reply: The offer received is invalid because the Wholesale price or Quality are not integer values. How about instead we make a deal on Wholesale Price of 9€ and quality of 2?
+

@@ -1,10 +1,14 @@
 import re
+from storage import rb_storage
 
-def extract_base_production_cost(text):
+def extract_other_constraint(text):
     # This pattern looks for the phrase "base production cost", then any characters
     # (non-greedy), followed by a Euro symbol (€) and optional whitespace, then captures
     # one or more digits (which can optionally include a decimal point).
-    pattern = r"base production cost.*?€\s*([\d\.]+)"
+    if rb_storage.bot_role == 'buyer':
+        pattern = r"base production cost.*?€\s*([\d\.]+)"
+    elif rb_storage.bot_role == 'seller':
+        pattern = r"retail selling price.*?€\s*([\d\.]+)"
     
     # re.IGNORECASE: makes the search case-insensitive.
     # re.DOTALL: allows the dot (.) to match newline characters as well.
